@@ -1,4 +1,5 @@
 #Requires -Version 2
+#Requires -Version 2
 
 if (Test-Path env:WEBSITE_SITE_NAME)
 {
@@ -104,7 +105,7 @@ Set-Variable -Option Constant "HomeEnvVar" "DNX_HOME"
 
 Set-Variable -Option Constant "RuntimeShortFriendlyName" "DNX"
 
-Set-Variable -Option Constant "DNVMUpgradeUrl" "https://raw.githubusercontent.com//iandreev/aspnetbuildscripts/master/dnvm.ps1"
+Set-Variable -Option Constant "DNVMUpgradeUrl" "https://raw.githubusercontent.com/iandreev/aspnetbuildscripts/master/dnvm.ps1"
 
 Set-Variable -Option Constant "AsciiArt" @"
    ___  _  ___   ____  ___

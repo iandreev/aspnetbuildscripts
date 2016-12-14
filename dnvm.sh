@@ -13,7 +13,7 @@ _DNVM_PACKAGE_MANAGER_NAME="dnu"
 _DNVM_VERSION_MANAGER_NAME=".NET Version Manager"
 _DNVM_DEFAULT_FEED="https://www.nuget.org/api/v2"
 _DNVM_DEFAULT_UNSTABLE_FEED="https://www.myget.org/F/aspnetvnext/api/v2"
-_DNVM_UPDATE_LOCATION="https://raw.githubusercontent.com//iandreev/aspnetbuildscripts/master/dnvm.sh"
+_DNVM_UPDATE_LOCATION="https://raw.githubusercontent.com/iandreev/aspnetbuildscripts/master/dnvm.sh"
 
 if [ "$NO_COLOR" != "1" ]; then
     # ANSI Colors
